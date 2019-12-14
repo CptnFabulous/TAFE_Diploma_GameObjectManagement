@@ -36,11 +36,13 @@ public class GameDataWriter
         writer.Write(value.z);
         writer.Write(value.w);
     }
-    /*
-    public float ReadFloat()
+
+    public void Write(Color value)
     {
-        return 1;
+        writer.Write(value.r);
+        writer.Write(value.g);
+        writer.Write(value.b);
+        writer.Write(value.a);
     }
-    */
     #endregion
 }
